@@ -76,6 +76,9 @@ namespace Stripe
         [JsonProperty("quantity")]
         public int? Quantity { get; set; }
 
+        [JsonProperty("unit_amount")]
+        public int? UnitAmount { get; set; }
+
         #region Expandable Subscription
         public string SubscriptionId { get; set; }
 
